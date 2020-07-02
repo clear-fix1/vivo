@@ -73,3 +73,8 @@ $toTop.click(function(){
         window.scrollTo(0,scrollTop)
     }
 })
+
+//点击main进入详情页
+document.querySelector('main').onclick = function(){
+    window.location.href = "./details.html"
+}
