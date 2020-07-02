@@ -1,0 +1,296 @@
+body, html {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-size: 12px;
+  background-color: #f7f7f7; }
+  body .login, html .login {
+    width: 100%;
+    background-color: #b9d3f8; }
+    body .login .banner, html .login .banner {
+      height: 780px;
+      width: 1200px;
+      position: relative;
+      margin: 0 auto; }
+      body .login .banner .logo, html .login .banner .logo {
+        position: absolute;
+        top: 0;
+        left: 243px; }
+        body .login .banner .logo a, html .login .banner .logo a {
+          display: block;
+          height: 52px;
+          width: 145px;
+          background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/logo-1.e4aed09.png);
+          background-size: 100% 100%; }
+      body .login .banner .layout, html .login .banner .layout {
+        position: absolute;
+        top: 74px;
+        right: 0;
+        width: 420px;
+        background-color: #fff; }
+        body .login .banner .layout .inner-box, html .login .banner .layout .inner-box {
+          padding: 30px 30px 20px;
+          min-height: 513px; }
+          body .login .banner .layout .inner-box .logo-area, html .login .banner .layout .inner-box .logo-area {
+            width: 160px;
+            height: 42px;
+            margin: auto;
+            cursor: pointer; }
+            body .login .banner .layout .inner-box .logo-area img, html .login .banner .layout .inner-box .logo-area img {
+              width: 100%;
+              height: 100%; }
+          body .login .banner .layout .inner-box .title, html .login .banner .layout .inner-box .title {
+            margin-top: 15px;
+            font-family: HYQiHei-FZS;
+            font-size: 19px;
+            font-weight: 400;
+            font-stretch: normal;
+            letter-spacing: 0;
+            color: #000;
+            text-align: center;
+            line-height: 30px; }
+          body .login .banner .layout .inner-box .toggle-module, html .login .banner .layout .inner-box .toggle-module {
+            text-align: right;
+            font-size: 14px;
+            color: #456fff;
+            margin-top: 20px; }
+            body .login .banner .layout .inner-box .toggle-module span, html .login .banner .layout .inner-box .toggle-module span {
+              cursor: pointer; }
+          body .login .banner .layout .inner-box .input-box .input-area .phone-box, html .login .banner .layout .inner-box .input-box .input-area .phone-box {
+            margin-top: 15px;
+            width: 360px;
+            height: 48px;
+            border: 1px solid #dedfe0; }
+            body .login .banner .layout .inner-box .input-box .input-area .phone-box .phone-code, html .login .banner .layout .inner-box .input-box .input-area .phone-box .phone-code {
+              float: left;
+              position: relative;
+              width: 74px; }
+              body .login .banner .layout .inner-box .input-box .input-area .phone-box .phone-code span, html .login .banner .layout .inner-box .input-box .input-area .phone-box .phone-code span {
+                display: block;
+                height: 48px;
+                line-height: 48px;
+                padding-left: 12px;
+                font-size: 16px;
+                color: #000;
+                text-align: left;
+                cursor: pointer; }
+              body .login .banner .layout .inner-box .input-box .input-area .phone-box .phone-code i, html .login .banner .layout .inner-box .input-box .input-area .phone-box .phone-code i {
+                content: "";
+                position: absolute;
+                top: 21px;
+                left: 61px;
+                width: 14px;
+                height: 9px;
+                background: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/arrow-down.42027c9.png) no-repeat;
+                background-size: 100% 100%; }
+            body .login .banner .layout .inner-box .input-box .input-area .phone-box .input, html .login .banner .layout .inner-box .input-box .input-area .phone-box .input {
+              width: 274px;
+              float: left;
+              padding-left: 12px;
+              height: 46px;
+              font-size: 16px;
+              color: #000;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              border: none;
+              background-color: transparent !important; }
+          body .login .banner .layout .inner-box .input-box .input-area .code-box, html .login .banner .layout .inner-box .input-box .input-area .code-box {
+            margin-top: 15px;
+            height: 48px;
+            line-height: 48px;
+            padding-left: 12px;
+            border: 1px solid #dedfe0; }
+            body .login .banner .layout .inner-box .input-box .input-area .code-box::before, html .login .banner .layout .inner-box .input-box .input-area .code-box::before {
+              display: table;
+              line-height: 0;
+              content: ""; }
+            body .login .banner .layout .inner-box .input-box .input-area .code-box input, html .login .banner .layout .inner-box .input-box .input-area .code-box input {
+              float: left;
+              border: none;
+              width: 226px;
+              height: 46px;
+              line-height: 46px;
+              font-size: 16px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              background-color: transparent !important; }
+            body .login .banner .layout .inner-box .input-box .input-area .code-box .get-code-pc, html .login .banner .layout .inner-box .input-box .input-area .code-box .get-code-pc {
+              position: relative;
+              float: right;
+              width: 104px;
+              padding-left: 8px;
+              padding-right: 8px;
+              text-align: center;
+              font-size: 15px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+              body .login .banner .layout .inner-box .input-box .input-area .code-box .get-code-pc .get, html .login .banner .layout .inner-box .input-box .input-area .code-box .get-code-pc .get {
+                color: #456fff;
+                cursor: pointer;
+                display: inline-block;
+                height: 100%; }
+              body .login .banner .layout .inner-box .input-box .input-area .code-box .get-code-pc .separator, html .login .banner .layout .inner-box .input-box .input-area .code-box .get-code-pc .separator {
+                position: absolute;
+                top: 7px;
+                left: 0;
+                width: 1px;
+                height: 33px;
+                padding: 0;
+                background-color: #dedfe0;
+                display: inline-block; }
+            body .login .banner .layout .inner-box .input-box .input-area .code-box::after, html .login .banner .layout .inner-box .input-box .input-area .code-box::after {
+              display: table;
+              line-height: 0;
+              content: "";
+              clear: both; }
+          body .login .banner .layout .inner-box .check-box, html .login .banner .layout .inner-box .check-box {
+            margin-top: 19px;
+            font-size: 14px; }
+            body .login .banner .layout .inner-box .check-box::before, html .login .banner .layout .inner-box .check-box::before {
+              display: table;
+              line-height: 0;
+              content: ""; }
+            body .login .banner .layout .inner-box .check-box .auto-login, html .login .banner .layout .inner-box .check-box .auto-login {
+              color: #666;
+              float: right; }
+              body .login .banner .layout .inner-box .check-box .auto-login .check, html .login .banner .layout .inner-box .check-box .auto-login .check {
+                width: 18px;
+                height: 18px;
+                background-color: #fff;
+                border: 1px solid #dedfe0;
+                float: left;
+                margin-right: 5px;
+                cursor: pointer; }
+                body .login .banner .layout .inner-box .check-box .auto-login .check img, html .login .banner .layout .inner-box .check-box .auto-login .check img {
+                  vertical-align: baseline;
+                  width: 93%;
+                  height: 86%;
+                  padding: 2px;
+                  display: none; }
+              body .login .banner .layout .inner-box .check-box .auto-login span, html .login .banner .layout .inner-box .check-box .auto-login span {
+                color: #666;
+                font-size: 14px; }
+          body .login .banner .layout .inner-box .os-pc-btn, html .login .banner .layout .inner-box .os-pc-btn {
+            display: block;
+            width: 360px;
+            height: 48px;
+            line-height: 48px;
+            font-size: 17px;
+            color: #fff;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #456fff;
+            background-image: linear-gradient(90deg, #418eff, #4566ff); }
+          body .login .banner .layout .inner-box .register-button, html .login .banner .layout .inner-box .register-button {
+            width: 360px;
+            height: 48px;
+            line-height: 48px;
+            border: 1px solid #456fff;
+            color: #456fff;
+            font-size: 17px;
+            text-align: center;
+            margin-top: 15px;
+            cursor: pointer; }
+          body .login .banner .layout .inner-box .hint3, html .login .banner .layout .inner-box .hint3 {
+            margin-top: 15px;
+            font-size: 13px;
+            color: #999; }
+          body .login .banner .layout .inner-box .forget-pwd, html .login .banner .layout .inner-box .forget-pwd {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer; }
+          body .login .banner .layout .inner-box .other-way-login, html .login .banner .layout .inner-box .other-way-login {
+            margin-top: 30px;
+            color: #999;
+            font-size: 13px;
+            text-align: center; }
+            body .login .banner .layout .inner-box .other-way-login .o-title, html .login .banner .layout .inner-box .other-way-login .o-title {
+              position: relative; }
+              body .login .banner .layout .inner-box .other-way-login .o-title::before, html .login .banner .layout .inner-box .other-way-login .o-title::before {
+                content: "";
+                width: 130px;
+                height: 1px;
+                background-color: #ccc;
+                position: absolute;
+                top: 50%;
+                left: 0; }
+              body .login .banner .layout .inner-box .other-way-login .o-title::after, html .login .banner .layout .inner-box .other-way-login .o-title::after {
+                content: "";
+                width: 130px;
+                height: 1px;
+                background-color: #ccc;
+                position: absolute;
+                top: 50%;
+                right: 0; }
+            body .login .banner .layout .inner-box .other-way-login .icon-box, html .login .banner .layout .inner-box .other-way-login .icon-box {
+              text-align: center;
+              margin-top: 15px; }
+              body .login .banner .layout .inner-box .other-way-login .icon-box .icon-item, html .login .banner .layout .inner-box .other-way-login .icon-box .icon-item {
+                width: 26px;
+                height: 26px;
+                margin-left: 18px;
+                display: inline-block; }
+                body .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-weixin, html .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-weixin {
+                  width: 26px;
+                  height: 26px;
+                  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/weixin.d36a295.png);
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                  display: block;
+                  cursor: pointer; }
+                body .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-zhifubao, html .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-zhifubao {
+                  width: 26px;
+                  height: 26px;
+                  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/zhifubao.a7cbcd5.png);
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                  cursor: pointer;
+                  display: block; }
+                body .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-weibo, html .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-weibo {
+                  width: 26px;
+                  height: 26px;
+                  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/weibo.06d9e46.png);
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                  display: block;
+                  cursor: pointer; }
+                body .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-renren, html .login .banner .layout .inner-box .other-way-login .icon-box .icon-item .img-renren {
+                  width: 26px;
+                  height: 26px;
+                  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/renren.e758970.png);
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                  cursor: pointer;
+                  display: block; }
+  body .bottom, html .bottom {
+    margin-top: 135px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 11px;
+    color: #9d9d9d; }
+    body .bottom .service a img, html .bottom .service a img {
+      display: inline-block;
+      width: 18px;
+      height: 15px;
+      vertical-align: text-bottom;
+      margin-right: 10px; }
+    body .bottom .service a .online-person, html .bottom .service a .online-person {
+      margin-right: 30px;
+      color: #666; }
+    body .bottom .service a .phone, html .bottom .service a .phone {
+      width: 12px;
+      height: 16px; }
+    body .bottom .service .to-service1:hover span, html .bottom .service .to-service1:hover span {
+      color: #456fff; }
+    body .bottom .copyright, html .bottom .copyright {
+      padding: 10px 0;
+      font-size: 10px;
+      box-sizing: border-box; }
